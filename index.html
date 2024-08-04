@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medic Asset Mini-App</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="images/logo.png" type="image/icon type" />
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <h1 class="title">Title</h1>
+        <nav>
+          <ul>
+            <li><a href="#" class="active">Reminders</a></li>
+            <li><a href="#">Notes</a></li>
+            <li><a href="#">History</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="logout">Logout</a>
+      </aside>
+      <main>
+        <header><img id="logo" src="images/logo.png" alt="logo" /></header>
+        <div class="text">
+          <h2>Reminders</h2>
+          <p>add reminder to take medic at time</p>
+        </div>
+        <div class="form">
+          <input type="text" name="title" id="" placeholder="Title" />
+          <input type="text" name="day-select" id="" placeholder="Day Select" />
+          <input type="text" name="time" id="" placeholder="Time / hour" />
+          <button>Add</button>
+        </div>
+        <div class="reminders-container">
+          <div class="reminders-grid">
+            <div class="reminders-item"></div>
+            <div class="reminders-item"></div>
+            <div class="reminders-item"></div>
+            <div class="reminders-item"></div>
+            <div class="reminders-item"></div>
+            <div class="reminders-item"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
